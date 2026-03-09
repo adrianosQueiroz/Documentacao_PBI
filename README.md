@@ -21,8 +21,11 @@ Este projeto automatiza a criação de documentação técnica para relatórios 
 
 Antes de iniciar, você precisará ter o Python instalado em sua máquina. Para instalar as dependências necessárias, execute:
 
-```bash
+```Bash
+
 pip install -r requirements.txt
+
+```
 📖 Como Usar
 Exporte os metadados do seu Power BI para um arquivo Excel chamado resulto.xlsx (recomendado usar ferramentas como DAX Studio, Tabular Editor ou Measure Killer).
 
@@ -32,8 +35,11 @@ No código, ajuste os campos manuais (Nome do Projeto, Responsável, etc.).
 
 Execute o script:
 
-Bash
+```Bash
+
 python main.py
+
+```
 Verifique os arquivos gerados: results_Documentacao.xlsx e results_Documentacao.docx.
 
 📂 Estrutura do Documento Word
